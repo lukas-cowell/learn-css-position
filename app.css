@@ -15,3 +15,7 @@ div {
 #static #middle {
     position: static;
 }
+
+#relative #middle {
+    position: relative;
+}
