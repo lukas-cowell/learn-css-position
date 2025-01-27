@@ -21,3 +21,8 @@ div {
     top: 50px;
     left: 50px;
 }
+
+#absolute #middle {
+    position: absolute;
+
+}
