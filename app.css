@@ -22,7 +22,14 @@ div {
     left: 50px;
 }
 
+/* This is the parent of the middle object below. Setting the parent elements position to relative means that the absolute position will be 
+determined off of this section, not the body of the whole doc. */
+#absolute {
+    position: relative;
+}
+
 #absolute #middle {
     position: absolute;
-
+    top: 50px;
+    left: 50px;
 }
