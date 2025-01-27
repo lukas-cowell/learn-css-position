@@ -33,3 +33,9 @@ determined off of this section, not the body of the whole doc. */
     top: 50px;
     left: 50px;
 }
+
+#fixed #middle {
+    position: fixed;
+    top: 0px;
+    left: 500px;
+}
